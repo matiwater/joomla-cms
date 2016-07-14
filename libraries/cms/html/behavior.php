@@ -634,7 +634,7 @@ abstract class JHtmlBehavior
 			return;
 		}
 
-		$url = JUri::base(true) . 'index.php?option=com_ajax&format=json';
+		$url = JUri::base(true) . '/index.php?option=com_ajax&format=json';
 
 		$script = 'window.setInterval(function(){';
 		$script .= 'var r;';
